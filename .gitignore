@@ -1,5 +1,5 @@
 Datasets
-*.code-workspace
+IA-API.code-workspace
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
