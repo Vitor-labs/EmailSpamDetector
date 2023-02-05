@@ -1,4 +1,2 @@
-# I.A-API
-nome do repo meramente ilustativo
+# SPAM DETECTOR SERVICE FOR EMAIL FILTERING
 
-projeto de ia antiga que estou transformando em uma api, motivação: achei q dava e to fazendo :)
