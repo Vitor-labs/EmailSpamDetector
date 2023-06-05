@@ -5,18 +5,19 @@ name = "pypi"
 
 [packages]
 cassandra-driver = "*"
-jupyter = "*"
 pandas = "*"
 scikit-learn = "*"
 tensorflow = "*"
 boto3 = "*"
 pypyr = "*"
-python-dotenv = "*"
 fastapi = "*"
-uvicorn = "*"
-gunicorn = "*"
+pexpect = "*"
 
 [dev-packages]
+python-dotenv = "*"
+uvicorn = "*"
+gunicorn = "*"
+jupyter = "*"
 
 [requires]
 python_version = "3.10"
