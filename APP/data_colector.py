@@ -100,8 +100,7 @@ word_index = tokenizer.word_index
 X = pad_sequences(sequences, maxlen=MAX_SEQ_LENGTH)
 y = to_categorical(np.asarray(classes))
 
-X_train, X_test, y_train, y_t2 = train_test_split(X, y, test_size=0.5, random_state=42)
-X_test, X_valid, y_train, y_test = train_test_split(X_test, y_t2, test_size=0.33, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=.15, random_state=42)
 
 spam_df.to_csv(SPAM_DATASET_PATH)
 
