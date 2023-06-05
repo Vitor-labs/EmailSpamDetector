@@ -1,3 +1,8 @@
+"""Script to Collect Basic Spam data from UCI repositories
+
+Raises:
+    ValueError: if no csv file is found
+"""
 import io
 import pickle
 import pathlib

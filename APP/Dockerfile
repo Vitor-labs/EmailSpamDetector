@@ -10,4 +10,4 @@ RUN pipenv install --system --deploy --ignore-pipfile
 
 COPY . .
 
-CMD [ "python", "DAtaExtractor.py" ]
+CMD [ "python", "data_colector.py" ]
